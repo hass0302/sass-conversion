@@ -1,39 +1,26 @@
 /*
-Error: Invalid CSS after "...ica, sans-serif": expected expression (e.g. 1px, bold), was ";"
-        on line 2 of sass/_variables.sass
-        from line 2 of sass/main.scss
+Error: Invalid CSS after "": expected selector, was "-"
+        on line 266 of sass/main.scss
 
-1: //FONT STACK VARIABLES
-2: $sanserifStack: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
-3: $serifStack: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-4: //COLOR VARIABLES
-5: $liteblue: #C7F7FF;
-6: $midblue: #89C0C9;
-7: $dblue: #3a5E63;
+261: 
+262: /***********************************************
+263:                 MEDIA QUERIES
+264: ***********************************************\/
+265: 
+266: -
+267: 
+268: @media all and (min-width: 901px) and (max-width: 1400px) {
+269:     header {
+270:         width: 900px;
+271:         margin: 0 auto;
 
 Backtrace:
-sass/_variables.sass:2
-sass/main.scss:2
+sass/main.scss:266
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/parser.rb:738:in `assert_done'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/parser.rb:76:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/parser.rb:240:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script.rb:27:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:1151:in `parse_script'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:757:in `parse_variable'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:642:in `parse_line'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:536:in `build_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:312:in `to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1105:in `expr!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:427:in `visit_rule'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -71,4 +58,4 @@ sass/main.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...ica, sans-serif\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of sass/_variables.sass\A         from line 2 of sass/main.scss\A \A 1: //FONT STACK VARIABLES\A 2: $sanserifStack: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;\A 3: $serifStack: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;\A 4: //COLOR VARIABLES\A 5: $liteblue: #C7F7FF;\A 6: $midblue: #89C0C9;\A 7: $dblue: #3a5E63;"; }
+  content: "Error: Invalid CSS after \"\": expected selector, was \"-\"\A         on line 266 of sass/main.scss\A \A 261: \A 262: /***********************************************\A 263:                 MEDIA QUERIES\A 264: ***********************************************/\A 265: \A 266: -\A 267: \A 268: @media all and (min-width: 901px) and (max-width: 1400px) {\A 269:     header {\A 270:         width: 900px;\A 271:         margin: 0 auto;"; }
