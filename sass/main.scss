@@ -1,14 +1,7 @@
 // main SASS file/***********************************************
 //FONT STACK VARIABLES
-$sanserifStack: 'Josefin Sans',
-‘Trebuchet MS’,
-Helvetica,
-sans-serif;
-$serifStack: Cardo,
-‘Palatino Linotype’,
-‘Book Antiqua’,
-Palatino,
-serif;
+$sanserifStack: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
+$serifStack: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 //COLOR VARIABLES
 $liteblue: #C7F7FF;
 $midblue: #89C0C9;
@@ -33,15 +26,12 @@ $whiteB : #fff;
 
 html {
     font-size: 16px;
-    font-family: $sansserifStack;
+    font-family: $sanserifStack;
     /* default for whole page */
     line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     font-family: $serifStack;
     /* serif for the headings */
 }
@@ -97,8 +87,12 @@ ul {
 
 $locale: (focal,$litebrown,$dbrown), (content1,$whiteB,$dgrey), (content2,$liteblue,$dblue), (footer, $whiteB, $litegrey);
 
-@each $name, $bgcolor, $color in $locale .bg-#{$name} {
-    @include background-mixin ($bgcolor,$color);
+
+
+@each $name, $bgcolor, $color in $locale {
+    .bg-#{$name} {
+        @include background-mixin ($bgcolor,$color);
+    }
 }
 
 header {
