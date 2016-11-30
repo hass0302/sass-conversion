@@ -1,0 +1,38 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 4 of /Users/Kaz/Desktop/sass-conversion-gh-pages/sass/main.scss
+
+1: // main SASS file/***********************************************
+2: //FONT STACK VARIABLES
+3: $sanserifStack: 'Josefin Sans',
+4: ‘Trebuchet MS’,
+5: Helvetica,
+6: sans-serif;
+7: $serifStack: Cardo,
+8: ‘Palatino Linotype’,
+9: ‘Book Antiqua’,
+
+Backtrace:
+/Users/Kaz/Desktop/sass-conversion-gh-pages/sass/main.scss:4
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/util.rb:896:in `check_sass_encoding'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/private/var/folders/2w/vjy48nj13fl680d48bx_wn280000gn/T/AppTranslocation/9A2D6324-1C0C-457B-95B0-D6DFE0AB5EB1/d/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 4 of /Users/Kaz/Desktop/sass-conversion-gh-pages/sass/main.scss\A \A 1: // main SASS file/***********************************************\A 2: //FONT STACK VARIABLES\A 3: $sanserifStack: 'Josefin Sans',\A 4: ‘Trebuchet MS’,\A 5: Helvetica,\A 6: sans-serif;\A 7: $serifStack: Cardo,\A 8: ‘Palatino Linotype’,\A 9: ‘Book Antiqua’,"; }
